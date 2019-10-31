@@ -1,4 +1,4 @@
-package condotion;
+package condition;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ public class PointTest {
         double in3 = 142;
         double in4 = 12415;
         double expected = 12392.341505;
-        double out = Point.distance(in, in2, in3, in4);
+        double out = ru.job4j.condition.Point.distance(in, in2, in3, in4);
         Assert.assertEquals(expected, out, 0.01);
     }
 }
