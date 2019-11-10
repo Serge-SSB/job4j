@@ -2,7 +2,7 @@ package loop;
 
 public class CarUsage {
     public static void main(String[] args) {
-        Car audi = new Car();
+        ru.job4j.Calculator.Car audi = new ru.job4j.Calculator.Car();
         if (!audi.canDrive()) {
             audi.fill(10);
         }
