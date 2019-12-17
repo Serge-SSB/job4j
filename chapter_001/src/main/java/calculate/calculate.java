@@ -6,7 +6,7 @@ package calculate;
  * @version $Id$
  * @since 0.1
  */
-public class Calculate {
+class Calculate {
     /**
      * main
      * Hello,job4j
